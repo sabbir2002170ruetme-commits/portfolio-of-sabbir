@@ -7,13 +7,14 @@ Academic portfolio for Sabbir Ahamed. React 18 + Vite 6 + Tailwind CSS v4 + Reac
 - `npm run dev` — dev server on http://localhost:5173
 - `npm run build` — production build to `dist/`
 - `npm run preview` — preview the build
+- `npm run deploy` — builds (`predeploy`) and publishes `dist/` to the `gh-pages` branch via `gh-pages`
 
 There is **no lint, test, or typecheck script**. `npm run build` is the only verification step; run it after changes.
 
 ## Architecture
 
 - All content (text, projects, publications, awards, certificates, experience, skills, nav, CV/email links) lives in `src/data/*.js`. Edit data there, not in components.
-- Routing: `HashRouter` in `src/App.jsx` + `base: "./"` in `vite.config.js` for zero-config static hosting. URLs are `#/about`; adding a route uses hash URLs. `/projects/:slug` is resolved by slug lookup in `src/data/projects.js`.
+- Routing: `HashRouter` in `src/App.jsx` + `base: "/portfolio-of-sabbir/"` in `vite.config.js` for GitHub Pages (project page under `sabbir2002170ruetme-commits.github.io/portfolio-of-sabbir/`). URLs are `#/about`; adding a route uses hash URLs. `/projects/:slug` is resolved by slug lookup in `src/data/projects.js`.
 - Project detail pages require a matching entry in `src/data/projects.js` with `slug`, `cover_image`, `gallery`, and optional `videos`; assets must exist under `public/assets/...`.
 - Imports always include the explicit extension, e.g. `./pages/Home.jsx`.
 
@@ -26,5 +27,5 @@ There is **no lint, test, or typecheck script**. `npm run build` is the only ver
 
 ## Gotchas
 
-- Asset paths in `src/data` are root-absolute (`/assets/...`) and resolve to files under `public/`. New media must be copied into `public/` before referencing it.
+- Asset paths in `src/data` are absolute (`/portfolio-of-sabbir/assets/...`, `/portfolio-of-sabbir/Sabbir_Ahamed_Resume.pdf`) and must match files under `public/` with the `portfolio-of-sabbir/` prefix. New media must be copied into `public/` and referenced with that prefix. The favicon in `index.html` stays `/favicon.svg` (Vite rebases it at build time).
 - `dist/` and `node_modules/` are gitignored build artifacts.

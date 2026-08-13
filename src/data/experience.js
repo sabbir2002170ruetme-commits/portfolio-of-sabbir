@@ -48,7 +48,7 @@ export const leadership = [
     title: "Mechanical Design Engineer, Team Crack Platoon (Formula SAE), RUET",
     date_range: "May 2023 – September 2024",
     tags: ["Mechanical Design", "CAD", "Vehicle Dynamics", "Team Engineering"],
-    gallery: ["/assets/images/leadership/crack-platoon/photo-1.jpg"],
+    gallery: ["/portfolio-of-sabbir/assets/images/leadership/crack-platoon/photo-1.jpg"],
     body: "Team Crack Platoon is Bangladesh's first Formula SAE student team, dedicated to researching, designing, and fabricating a high-performance Formula Student race car. I served as a core member of the mechanical design team.",
     contribution:
       "Worked within a multidisciplinary team to design, fabricate, and test race-car components to international competition standard, owning vehicle dynamics, structural design, and CAD modeling through a fixed delivery timeline. Coordinated handoffs across design and fabrication phases, applied structured quality review, and managed milestones to prepare the vehicle for Formula Bharat 2024, India.",
@@ -59,7 +59,7 @@ export const leadership = [
     order: 2,
     title: "Founding President, Lalmonirhat District Association, RUET",
     tags: ["Leadership", "Community Building", "Event Management", "Team Delegation"],
-    gallery: ["/assets/images/leadership/lda/photo-1.jpg", "/assets/images/leadership/lda/photo-2.jpg"],
+    gallery: ["/portfolio-of-sabbir/assets/images/leadership/lda/photo-1.jpg", "/portfolio-of-sabbir/assets/images/leadership/lda/photo-2.jpg"],
     body: "Founded and led the Lalmonirhat District Association at RUET, a student organization connecting current students and alumni from Lalmonirhat district, fostering shared cultural identity within the university community. Built the organization from founding to a membership of 35+ students.",
     contribution:
       "As founding president, built the association from inception into a 35+ member organization, delegating responsibilities across the team to deliver three major events end-to-end: a badminton tournament, the Annual General Meeting (AGM), and a combined reception and farewell program, covering planning, logistics, and execution. Coordinated volunteer teams during the university admission period, managing schedules and on-the-ground operations to keep delivery on track.",
@@ -72,13 +72,13 @@ export const leadership = [
     date_range: "March 2022 – June 2026",
     tags: ["Leadership", "Event Management", "Student Organization"],
     gallery: [
-      "/assets/images/leadership/scadr/photo-1.jpg",
-      "/assets/images/leadership/scadr/photo-2.jpg",
-      "/assets/images/leadership/scadr/photo-3.jpg",
-      "/assets/images/leadership/scadr/photo-4.jpg",
-      "/assets/images/leadership/scadr/photo-5.jpg",
-      "/assets/images/leadership/scadr/photo-6.jpg",
-      "/assets/images/leadership/scadr/photo-7.jpg",
+      "/portfolio-of-sabbir/assets/images/leadership/scadr/photo-1.jpg",
+      "/portfolio-of-sabbir/assets/images/leadership/scadr/photo-2.jpg",
+      "/portfolio-of-sabbir/assets/images/leadership/scadr/photo-3.jpg",
+      "/portfolio-of-sabbir/assets/images/leadership/scadr/photo-4.jpg",
+      "/portfolio-of-sabbir/assets/images/leadership/scadr/photo-5.jpg",
+      "/portfolio-of-sabbir/assets/images/leadership/scadr/photo-6.jpg",
+      "/portfolio-of-sabbir/assets/images/leadership/scadr/photo-7.jpg",
     ],
     body: "SCADR is RUET's design-engineering student society. As Chief Coordinator for Event Management, I organized the society's major national events over four years of continuous involvement, alongside running its weekend SolidWorks training programme (see the SolidWorks Instructor role under Experience).",
     contribution:

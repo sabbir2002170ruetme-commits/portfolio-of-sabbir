@@ -34,7 +34,7 @@ export const publications = [
     citation:
       'N. A. Rafid, A. M. Parvej, N. A. Dip, S. Ahamed, and M. J. Hasan, "Aerodynamic analysis of optimized high-speed train," Paper 263, 9th BSME International Conference on Thermal Engineering (ICTE 2024), Bangladesh University of Engineering and Technology, Dhaka, Bangladesh, Dec. 19–21, 2024.',
     note: "Oral presentation delivered in person by S. Ahamed",
-    certificate: "/assets/certificates/bsme-icte-2024-conference-certificate.pdf",
+    certificate: "/portfolio-of-sabbir/assets/certificates/bsme-icte-2024-conference-certificate.pdf",
     contribution:
       "I conducted the literature review and determined the model geometry and dimensioning, and developed the 3D CAD model used in the analysis. I delivered the oral presentation in person before the conference audience, presenting the slides and representing the author team.",
   },

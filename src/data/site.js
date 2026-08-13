@@ -10,8 +10,8 @@ export const site = {
   phone: "+8801721709312",
   whatsapp: "https://wa.me/8801721709312",
   location: "Rajshahi, Bangladesh",
-  cv_file: "/Sabbir_Ahamed_Resume.pdf",
-  profile_photo: "/assets/images/profile/profile.jpg",
+  cv_file: "/portfolio-of-sabbir/Sabbir_Ahamed_Resume.pdf",
+  profile_photo: "/portfolio-of-sabbir/assets/images/profile/profile.jpg",
   linkedin: "https://www.linkedin.com/in/sabbir-ahamed-me-eng/",
   nav: [
     { label: "About", url: "/about" },
@@ -28,5 +28,5 @@ export const hero = {
   lede: "I take products and projects from concept to delivery, building the teams, managing the stakeholders, and driving the results to get there.",
   cta_projects: "View Projects",
   cta_cv: "Download CV",
-  availability: "Open to graduate research opportunities",
+  availability: "Open to driving complex projects & leading teams",
 };

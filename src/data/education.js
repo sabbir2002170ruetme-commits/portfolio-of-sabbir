@@ -8,7 +8,7 @@ export const education = [
     gpa: "3.32 / 4.00",
     thesis: "A Smart System for Automated Feeding and Water Quality Monitoring in Aquaculture",
     supervisor: "Prof. Dr. Mhia Md. Zaglul Shahadat, Department of Mechanical Engineering, RUET",
-    transcript: "/assets/certificates/undergraduate-transcript.pdf",
+    transcript: "/portfolio-of-sabbir/assets/certificates/undergraduate-transcript.pdf",
     transcript_type: "pdf",
   },
   {
@@ -20,7 +20,7 @@ export const education = [
     gpa: "5.00 / 5.00",
     board: "Board of Intermediate and Secondary Education, Dinajpur",
     group: "Science",
-    transcript: "/assets/certificates/hsc-transcript.jpg",
+    transcript: "/portfolio-of-sabbir/assets/certificates/hsc-transcript.jpg",
     transcript_type: "image",
   },
   {
@@ -32,7 +32,7 @@ export const education = [
     gpa: "5.00 / 5.00",
     board: "Board of Intermediate and Secondary Education, Dinajpur",
     group: "Science",
-    transcript: "/assets/certificates/ssc-transcript.jpg",
+    transcript: "/portfolio-of-sabbir/assets/certificates/ssc-transcript.jpg",
     transcript_type: "image",
   },
 ];
